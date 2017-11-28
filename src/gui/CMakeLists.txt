@@ -41,7 +41,7 @@ set(client_UI_SRCS
     wizard/owncloudoauthcredspage.ui
     wizard/owncloudsetupnocredspage.ui
     wizard/owncloudwizardresultpage.ui
-    wizard/webviewpage.ui
+    wizard/webview.ui
 )
 
 set(client_SRCS
@@ -102,6 +102,7 @@ set(client_SRCS
     creds/httpcredentialsgui.cpp
     creds/oauth.cpp
     creds/webflowcredentials.cpp
+    creds/webflowcredentialsdialog.cpp
     wizard/postfixlineedit.cpp
     wizard/abstractcredswizardpage.cpp
     wizard/owncloudadvancedsetuppage.cpp
@@ -113,6 +114,7 @@ set(client_SRCS
     wizard/owncloudwizard.cpp
     wizard/owncloudwizardresultpage.cpp
     wizard/webviewpage.cpp
+    wizard/webview.cpp
 )
 
 IF(NOT NO_SHIBBOLETH)
